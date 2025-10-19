@@ -68,6 +68,9 @@ mcp-web-search/
 - **Alerts**: SLO of 99% queries under 8 seconds; page on-call if throughput drops below two successful queries/minute (tune post-deployment).
 - **Traces** (optional): integrate with an OTEL exporter if end-to-end tracing is required.
 
+### Additional Documentation
+- `docs/mcp_web_search_plan.md` – detailed architecture plan for the web search server.
+
 ## CLI Usage (temporary)
 To quickly validate the skeleton you can run a single query:
 ```bash
